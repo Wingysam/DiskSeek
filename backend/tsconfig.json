@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "outDir": "dist",
+    "rootDir": "src",
+    "incremental": false,
+    "lib": [
+      "ESNext",
+      "DOM"
+    ],
+    "baseUrl": "src/",
+    "esModuleInterop": true,
+    "strictNullChecks": true,
+    "module": "ES2022",
+    "target": "ES2022",
+    "moduleResolution": "node"
+  },
+  "includes": [ "src" ],
+  "exclude": [ "dist", "node_modules" ]
+}
